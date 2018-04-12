@@ -2,4 +2,11 @@ site_name: My Docs
 pages:
     - Home: index.md
     - About: about.md
-theme: material
+    - How To Install Node.js On Ubuntu 16.04: 2017-09-13-How-To-Install-Nodejs-On-Ubuntu-1604.markdown
+    - Remembering Application's Positions Sizes on Ubuntu 16.04: 2017-10-15-Remembering-App's-Positions-Sizes.markdown
+    - How to Install Ruby on Ubuntu 16.04: 2017-11-02-How-To-Install-Ruby-On-Ubuntu-1604.markdown
+    - First Steps with Jekyll on Ubuntu 16.04: 2017-11-20-First-Steps-With-Jekyll.markdown
+    - How to Set Up and Use LXD 2.0.x on Ubuntu 16.04: 2018-03-15-How-to-Set-Up-and-Use-LXD-on-Ubuntu-1604.markdown
+    - How to Install packer.io on Ubuntu 16.04: 2018-04-04-packer-installation-ubuntu1604.markdown
+theme: readthedocs
+# theme: material
