@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/</loc>
+     <lastmod>2018-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/First-Steps-With-Jekyll/</loc>
+     <lastmod>2018-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/How-To-Install-Nodejs-On-Ubuntu-1604/</loc>
+     <lastmod>2018-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/How-To-Install-Ruby-On-Ubuntu-1604/</loc>
+     <lastmod>2018-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/How-to-Set-Up-and-Use-LXD-on-Ubuntu-1604/</loc>
+     <lastmod>2018-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/Remembering-App's-Positions-Sizes/</loc>
+     <lastmod>2018-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/about/</loc>
+     <lastmod>2018-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/packer-installation-ubuntu1604/</loc>
+     <lastmod>2018-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>
