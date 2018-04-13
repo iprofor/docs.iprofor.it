@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Documentation Library of A Linux System Administrator
 pages:
     # - Home: index.md
     # - About: about.md
@@ -11,6 +11,7 @@ pages:
 theme: readthedocs
 # theme: material
 repo_url: https://github.com/iprofor/docs.iprofor.it
+edit_uri: markdown
 # repo_name: BitBucket
 site_description: Documentation of A Linux System Administrator
 site_author: iprofor.it
