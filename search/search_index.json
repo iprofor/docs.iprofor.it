@@ -1,0 +1,169 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/First-Steps-With-Jekyll/", 
+            "text": "Prerequisites\n\n\nIn order to install Jekyll on the host machine, one should already have \nNode.js\n and \nRuby\n environments installed.  \n\n\nHere are the steps to firstly install \nNode.js\n and then \nRuby\n\n\nInstallation\n\n\nInstalling the jekyl and the bundler\n\n\nsudo gem install bundler jekyll\n\n\nTo see the installed version, run the following command\n\n\njekyll -v\n\n\nPlugins\n\n\nInstalling additional needed plug-ins\n\n\nsudo gem install jekyll-paginate jekyll-gist\n\n\nDebuging a site\n\n\ncd into the directory\n\n\njekyll doctor\n\n\nCreating a standard blank a site\n\n\njekyll new my-awesome-site\n\n\nPublishing a site\n\n\ncd into the directory\n\n\njekyll serve\n\nor\n\n\nbundle exec jekyll serve\n  \n\n\nor by indicating the host's IP, e.g. \n10.10.10.10\n\n\njekyll serve -H 10.10.10.10\n\nor\n\n\nbundle exec jekyll serve -H 10.10.10.10\n  \n\n\nInspired from \nhere", 
+            "title": "\"First Steps with Jekyll on Ubuntu 16.04\""
+        }, 
+        {
+            "location": "/First-Steps-With-Jekyll/#prerequisites", 
+            "text": "In order to install Jekyll on the host machine, one should already have  Node.js  and  Ruby  environments installed.    Here are the steps to firstly install  Node.js  and then  Ruby", 
+            "title": "Prerequisites"
+        }, 
+        {
+            "location": "/First-Steps-With-Jekyll/#installation", 
+            "text": "Installing the jekyl and the bundler  sudo gem install bundler jekyll  To see the installed version, run the following command  jekyll -v", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/First-Steps-With-Jekyll/#plugins", 
+            "text": "Installing additional needed plug-ins  sudo gem install jekyll-paginate jekyll-gist", 
+            "title": "Plugins"
+        }, 
+        {
+            "location": "/First-Steps-With-Jekyll/#debuging-a-site", 
+            "text": "cd into the directory  jekyll doctor", 
+            "title": "Debuging a site"
+        }, 
+        {
+            "location": "/First-Steps-With-Jekyll/#creating-a-standard-blank-a-site", 
+            "text": "jekyll new my-awesome-site", 
+            "title": "Creating a standard blank a site"
+        }, 
+        {
+            "location": "/First-Steps-With-Jekyll/#publishing-a-site", 
+            "text": "cd into the directory  jekyll serve \nor  bundle exec jekyll serve     or by indicating the host's IP, e.g.  10.10.10.10  jekyll serve -H 10.10.10.10 \nor  bundle exec jekyll serve -H 10.10.10.10     Inspired from  here", 
+            "title": "Publishing a site"
+        }, 
+        {
+            "location": "/How-To-Install-Nodejs-On-Ubuntu-1604/", 
+            "text": "Installation\n\n\ncurl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - \n apt -y install nodejs\n\n\nTo see the installed version, run the following command\n\n\nnodejs -v\n\nand\n\n\nnpm -v", 
+            "title": "\"How To Install Node.js On Ubuntu 16.04\""
+        }, 
+        {
+            "location": "/How-To-Install-Nodejs-On-Ubuntu-1604/#installation", 
+            "text": "curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -   apt -y install nodejs  To see the installed version, run the following command  nodejs -v \nand  npm -v", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/How-To-Install-Ruby-On-Ubuntu-1604/", 
+            "text": "Prerequisites\n\n\nIn order to install Ruby on the host machine, one should already have \nNode.js\n environment installed.  \n\n\nHere are the steps on how to install \nNode.js\n  \n\n\nAdding the source repository\n\n\nIn order to install Ruby on the system, one should add source repository, authenticate it and update/upgrade the system  \n\n\ncurl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - \n echo \"deb https://dl.yarnpkg.com/debian/ stable main\" | sudo tee /etc/apt/sources.list.d/yarn.list \n apt -y update \n apt -y upgrade \n apt -y dist-upgrade \n apt -y autoremove\n  \n\n\nInstallation\n\n\nThen to actually install needed packages\n\n\napt -y install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs yarn ruby ruby-dev make build-essential\n\n\nInspired from \nhere", 
+            "title": "\"How to Install Ruby on Ubuntu 16.04\""
+        }, 
+        {
+            "location": "/How-To-Install-Ruby-On-Ubuntu-1604/#prerequisites", 
+            "text": "In order to install Ruby on the host machine, one should already have  Node.js  environment installed.    Here are the steps on how to install  Node.js", 
+            "title": "Prerequisites"
+        }, 
+        {
+            "location": "/How-To-Install-Ruby-On-Ubuntu-1604/#adding-the-source-repository", 
+            "text": "In order to install Ruby on the system, one should add source repository, authenticate it and update/upgrade the system    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -   echo \"deb https://dl.yarnpkg.com/debian/ stable main\" | sudo tee /etc/apt/sources.list.d/yarn.list   apt -y update   apt -y upgrade   apt -y dist-upgrade   apt -y autoremove", 
+            "title": "Adding the source repository"
+        }, 
+        {
+            "location": "/How-To-Install-Ruby-On-Ubuntu-1604/#installation", 
+            "text": "Then to actually install needed packages  apt -y install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs yarn ruby ruby-dev make build-essential  Inspired from  here", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/How-to-Set-Up-and-Use-LXD-on-Ubuntu-1604/", 
+            "text": "A Linux container is a grouping of processes that is isolated from the rest of the system through the use of Linux kernel security features, such as namespaces and control groups. It's a construct similar to a virtual machine, but it's much more light-weight; you don't have the overhead of running an additional kernel or simulating the hardware. This means you can easily create multiple containers on the same server.\n\n\nLXD lets you create and manage these containers. LXD provides a hypervisor service to manage the entire life cycle of containers. In this tutorial, you'll configure LXD and use it to run Nginx in a container. You'll then route traffic to the container in order to make the web site accessible from the Internet.\n\n\nsudo apt -y install lxd\n\n\nLog in to the server using the non-root user account. Then add your user to the lxd group so you can use it to perform all container management tasks:\n\n\nsudo usermod --append --groups lxd crt\n\n\nFor server\n\nLog out of the server and log back in again so that your new SSH session will be updated with the new group membership. Once you're logged in, you can start configuring LXD.\n\n\nFor Desktop\n\nThe new group will be effective at the next login session, to apply it to the current shell, run\n\n\nnewgrp lxd\n\n\nNow configure the storage backend. The recommended storage backend for LXD is the ZFS filesystem, stored either in a preallocated file or by using Block Storage. To use ZFS support in LXD, update your package list and install the zfsutils-linux package:\n\n\nsudo apt -y update\n\n\nsudo apt -y install zfsutils-linux\n\n\nYou can now configure LXD. Start the LXD initialization process with the lxd init command:\n\n\nsudo lxd init\n\n\nEnter (yes)\nEnter (zfs)\nEnter (yes)\nEnter (lxd)\nEnter (no)\n8\nyes\nEnter (all)\nEnter (8443)\nPassword\nEnter (yes)\nEnter (yes)\nEnter (lxdbr0)\nEnter (yes)\nEnter (ok)\n10.10.90.1\n24\n10.10.90.2\n10.10.90.254\n250\nEnter (yes)\nEnter (no)\n\n\n\nlxc list\n\n\nImages\n\n\nInspired from \nhere\n\n\nList of images from \nhere\n\n\nlxc launch images:centos/7/amd64 centos7-test\n\n\nUsing the built-in image remotes\n\nLXD comes with 3 default remotes providing images:\n\n\n\n\nubuntu: (for stable Ubuntu images)\n\n\nubuntu-daily: (for daily Ubuntu images)\n\n\nimages: (for a bunch of other distros)\n\n\n\n\nTo start a container from them, simply do:\n\n\nlxc launch ubuntu:14.04 my-ubuntu\n\n\nlxc launch ubuntu-daily:16.04 my-ubuntu-dev\n\n\nlxc launch images:centos/6/amd64 my-centos\n  \n\n\nIf you need to connect to the container as root, use the command\n\n\nlxc exec centos7-test -- /bin/bash\n\n\nIf you need to connect to the ubuntu/debian container as user, use the command\n\n\nlxc exec webserver -- sudo --login --user ubuntu\n\n\nContainer's rootfs on the host OS\n\n\ncd /var/lib/lxd/containers\n  \n\n\nInspired from \nhere\n and \nhere", 
+            "title": "\"How to Set Up and Use LXD 2.0.x on Ubuntu 16.04\""
+        }, 
+        {
+            "location": "/How-to-Set-Up-and-Use-LXD-on-Ubuntu-1604/#images", 
+            "text": "Inspired from  here  List of images from  here  lxc launch images:centos/7/amd64 centos7-test  Using the built-in image remotes \nLXD comes with 3 default remotes providing images:   ubuntu: (for stable Ubuntu images)  ubuntu-daily: (for daily Ubuntu images)  images: (for a bunch of other distros)   To start a container from them, simply do:  lxc launch ubuntu:14.04 my-ubuntu  lxc launch ubuntu-daily:16.04 my-ubuntu-dev  lxc launch images:centos/6/amd64 my-centos     If you need to connect to the container as root, use the command  lxc exec centos7-test -- /bin/bash  If you need to connect to the ubuntu/debian container as user, use the command  lxc exec webserver -- sudo --login --user ubuntu  Container's rootfs on the host OS  cd /var/lib/lxd/containers     Inspired from  here  and  here", 
+            "title": "Images"
+        }, 
+        {
+            "location": "/Remembering-App's-Positions-Sizes/", 
+            "text": "In order to launch an application on a separate workspace, the following packages should be installed\n\n\nOn Ubuntu\n\n\napt -y install compizconfig-settings-manager\n\n\n\n\nLaunch \ncompizconfig-settings-manager\n\n\nClick on \nWindows Manager\n\n\nClick on \nPlace Windows\n\n\nUse these settings:\n\n\nWorkarounds \nUnticked\n\n\nPlacement Mode \nPlace across all outputs\n\n\nThe Placement Mode \nSmart\n is the key for remembering your desired position.\n\n\nPlease keep in mind that some applications are programmed to override your system's perferred settings.", 
+            "title": "\"Remembering Application's Positions Sizes on Ubuntu 16.04\""
+        }, 
+        {
+            "location": "/Remembering-App's-Positions-Sizes/#on-ubuntu", 
+            "text": "apt -y install compizconfig-settings-manager   Launch  compizconfig-settings-manager  Click on  Windows Manager  Click on  Place Windows  Use these settings:  Workarounds  Unticked  Placement Mode  Place across all outputs  The Placement Mode  Smart  is the key for remembering your desired position.  Please keep in mind that some applications are programmed to override your system's perferred settings.", 
+            "title": "On Ubuntu"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Videre arcus ut reppulit quoniam\n\n\nAurum satyrique cunis\n\n\nLorem markdownum quoque aemulus, sit \nannos est vestros\n animalia\ndicentum erant undis inmanis corpore clipeum. Nec quo, sono potes fuit Troiana\npassisque de Circes maternaque virtus; grandia. Per in concordia pacis Euros,\ndoleres capillos suos simulacra regna dextraeque tertia miserrima utque honore,\nne. Neque cum sortis leoni laceratur, inopes coniunx, haeret, tuba, superum.\n\n\n\n\nMersis Haemonii sermone usum Argolicas tot temerare\n\n\nUndas in iactasque\n\n\nUmor exanimis isdem\n\n\n\n\nHeros ut maiora o saepe Palladis Somnia\n\n\nPositasque haustus favilla, ac tellus turba verba noxia, auditis neu nocet\nconiunx. Subeant habuissem hastile relinquunt aquarum, mortalis, pro suo; per!\nEgo et purpuraque \nin sonent sulphura\n fiducia albentibus\noris sanguine Iacchus plangor aequales spectare in narratur iubeas, eat de.\nMetum et humi absit quid pressa, ratibusque deus labentibus silvas nescit.\n\n\n\n\nCondidit subponunt\n\n\nParentis valet\n\n\nParosque et sed forte superi arguitur habe\n\n\n\n\nAtque cui\n\n\nCapiti amplectitur summa facit, ponto metuendus cornua repperit prius maestus ut\nurbem removit. Cadmeida Latiae dedit nostros in fuit! Erat qua nec apro! Ille\n\nsaxo animo\n, ferisne sua bellum\nlumina tibi.\n\n\nPater deorum indignamque super; est primum. Me est oris \nCartheia habet Iovis\n\nsic!\n\n\nEt est non tectus Pelia\n\n\nImago totaeque simulacra deus est furtim Nixosque munere, amantem conparentis\ncanisve patruus reduxi in dignior patefecit; cum. Longa vocem divum bimari\ninque: unum non, gloria nunc.\n\n\n\n\nTotis iam aera nec bracchia, quae accendit, quem velis proles solitoque in\nexire. Nec vestrum? Sed di pelagi inpositum amorque\n\nnon\n silvas flexit, venientem; sine meo Atridae\ndixit, levis. Aonidum et plumis veluti excepto, orbi Ulixe, ab coniuge fecit.\n\n\n\n\nStridula \nterrae increpuit\n rectum paludibus gente, latura versa calcat\nadvehar poscis attonitaeque \nArcas\n imitataque\nAphareus timeo, ut? Indiciumque quod albescere marem exercere admotis oetaeas ne\ncitharae: luminis ille saucia, usus sed. Loca nil feris sanguine iussae ponderis\ncolebat vitamque, primus. Unda ebur, per trahi patienda sibi dextera marito\ncauda.", 
+            "title": "Videre arcus ut reppulit quoniam"
+        }, 
+        {
+            "location": "/about/#videre-arcus-ut-reppulit-quoniam", 
+            "text": "", 
+            "title": "Videre arcus ut reppulit quoniam"
+        }, 
+        {
+            "location": "/about/#aurum-satyrique-cunis", 
+            "text": "Lorem markdownum quoque aemulus, sit  annos est vestros  animalia\ndicentum erant undis inmanis corpore clipeum. Nec quo, sono potes fuit Troiana\npassisque de Circes maternaque virtus; grandia. Per in concordia pacis Euros,\ndoleres capillos suos simulacra regna dextraeque tertia miserrima utque honore,\nne. Neque cum sortis leoni laceratur, inopes coniunx, haeret, tuba, superum.   Mersis Haemonii sermone usum Argolicas tot temerare  Undas in iactasque  Umor exanimis isdem", 
+            "title": "Aurum satyrique cunis"
+        }, 
+        {
+            "location": "/about/#heros-ut-maiora-o-saepe-palladis-somnia", 
+            "text": "Positasque haustus favilla, ac tellus turba verba noxia, auditis neu nocet\nconiunx. Subeant habuissem hastile relinquunt aquarum, mortalis, pro suo; per!\nEgo et purpuraque  in sonent sulphura  fiducia albentibus\noris sanguine Iacchus plangor aequales spectare in narratur iubeas, eat de.\nMetum et humi absit quid pressa, ratibusque deus labentibus silvas nescit.   Condidit subponunt  Parentis valet  Parosque et sed forte superi arguitur habe", 
+            "title": "Heros ut maiora o saepe Palladis Somnia"
+        }, 
+        {
+            "location": "/about/#atque-cui", 
+            "text": "Capiti amplectitur summa facit, ponto metuendus cornua repperit prius maestus ut\nurbem removit. Cadmeida Latiae dedit nostros in fuit! Erat qua nec apro! Ille saxo animo , ferisne sua bellum\nlumina tibi.  Pater deorum indignamque super; est primum. Me est oris  Cartheia habet Iovis \nsic!", 
+            "title": "Atque cui"
+        }, 
+        {
+            "location": "/about/#et-est-non-tectus-pelia", 
+            "text": "Imago totaeque simulacra deus est furtim Nixosque munere, amantem conparentis\ncanisve patruus reduxi in dignior patefecit; cum. Longa vocem divum bimari\ninque: unum non, gloria nunc.   Totis iam aera nec bracchia, quae accendit, quem velis proles solitoque in\nexire. Nec vestrum? Sed di pelagi inpositum amorque non  silvas flexit, venientem; sine meo Atridae\ndixit, levis. Aonidum et plumis veluti excepto, orbi Ulixe, ab coniuge fecit.   Stridula  terrae increpuit  rectum paludibus gente, latura versa calcat\nadvehar poscis attonitaeque  Arcas  imitataque\nAphareus timeo, ut? Indiciumque quod albescere marem exercere admotis oetaeas ne\ncitharae: luminis ille saucia, usus sed. Loca nil feris sanguine iussae ponderis\ncolebat vitamque, primus. Unda ebur, per trahi patienda sibi dextera marito\ncauda.", 
+            "title": "Et est non tectus Pelia"
+        }, 
+        {
+            "location": "/packer-installation-ubuntu1604/", 
+            "text": "This short tutorial is going to cover how to install Packer on Ubuntu 16.04 so that you can get started with exploring many great features of Packer.  \n\n\nDownload Packer\n\n\ncurl -L https://releases.hashicorp.com/packer/1.2.2/packer_1.2.2_linux_amd64.zip \n packer.zip\n\n\nExtract Packer to the right system location\n\n\nsudo unzip packer.zip -d /usr/local/packer\n\n\nAdd Packer to the PATH\n\n\necho \"export PATH=\"$PATH:/usr/local/packer\"\" \n /etc/environment\n\n\nsource /etc/environment\n\n\nVerify the installation\n\n\npacker -v\n\n\nBonus\n\n\nAs a bonus, I made a bash \nscript\n. Remember it should be executed as root.  \n\n\n\n\n\nInspired from \nhere", 
+            "title": "\"How to Install packer.io on Ubuntu 16.04\""
+        }, 
+        {
+            "location": "/packer-installation-ubuntu1604/#download-packer", 
+            "text": "curl -L https://releases.hashicorp.com/packer/1.2.2/packer_1.2.2_linux_amd64.zip   packer.zip", 
+            "title": "Download Packer"
+        }, 
+        {
+            "location": "/packer-installation-ubuntu1604/#extract-packer-to-the-right-system-location", 
+            "text": "sudo unzip packer.zip -d /usr/local/packer", 
+            "title": "Extract Packer to the right system location"
+        }, 
+        {
+            "location": "/packer-installation-ubuntu1604/#add-packer-to-the-path", 
+            "text": "echo \"export PATH=\"$PATH:/usr/local/packer\"\"   /etc/environment  source /etc/environment", 
+            "title": "Add Packer to the PATH"
+        }, 
+        {
+            "location": "/packer-installation-ubuntu1604/#verify-the-installation", 
+            "text": "packer -v", 
+            "title": "Verify the installation"
+        }, 
+        {
+            "location": "/packer-installation-ubuntu1604/#bonus", 
+            "text": "As a bonus, I made a bash  script . Remember it should be executed as root.     Inspired from  here", 
+            "title": "Bonus"
+        }
+    ]
+}
