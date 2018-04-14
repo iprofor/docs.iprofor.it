@@ -7,6 +7,9 @@ install:
 - pip install mkdocs
 script:
 - mkdocs build --verbose --clean --strict
+cache:
+  directories:
+- $HOME/.cache/pip
 notifications:
   email: true
 deploy:
