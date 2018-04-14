@@ -13,4 +13,4 @@ deploy:
  local_dir: docs
  on:
    branch: master
-fqdn: www.docs.iprofor.it
+ fqdn: www.docs.iprofor.it
