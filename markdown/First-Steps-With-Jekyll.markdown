@@ -6,7 +6,7 @@ image: jekyll.png
 ---
 
 ### Prerequisites
-Innnn order to install Jekyll on the host machine, one should already have _Node.js_ and _Ruby_ environments installed.  
+In order to install Jekyll on the host machine, one should already have _Node.js_ and _Ruby_ environments installed.  
 
 Here are the steps to firstly install [_Node.js_]({{ site.baseurl }}{% link _posts/2017-09-13-How-To-Install-Nodejs-On-Ubuntu-1604.markdown %}) and then [_Ruby_]({{ site.baseurl }}{% link _posts/2017-11-02-How-To-Install-Ruby-On-Ubuntu-1604.markdown %})
 
