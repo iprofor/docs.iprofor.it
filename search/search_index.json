@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/First-Steps-With-Jekyll/", 
-            "text": "Prerequisites\n\n\nIn order to install Jekyll on the host machine, one should already have \nNode.js\n and \nRuby\n environments installed.  \n\n\nHere are the steps to firstly install \nNode.js\n and then \nRuby\n\n\nInstallation\n\n\nInstalling the jekyl and the bundler\n\n\nsudo gem install bundler jekyll\n\n\nTo see the installed version, run the following command\n\n\njekyll -v\n\n\nPlugins\n\n\nInstalling additional needed plug-ins\n\n\nsudo gem install jekyll-paginate jekyll-gist\n\n\nDebuging a site\n\n\ncd into the directory\n\n\njekyll doctor\n\n\nCreating a standard blank a site\n\n\njekyll new my-awesome-site\n\n\nPublishing a site\n\n\ncd into the directory\n\n\njekyll serve\n\nor\n\n\nbundle exec jekyll serve\n  \n\n\nor by indicating the host's IP, e.g. \n10.10.10.10\n\n\njekyll serve -H 10.10.10.10\n\nor\n\n\nbundle exec jekyll serve -H 10.10.10.10\n  \n\n\nInspired from \nhere", 
+            "text": "Prerequisites\n\n\nIn order to install Jekyll on the host machine, one should already have \nNode.js\n and \nRuby\n environments installed.  \n\n\nHere are the steps to firstly install \nNode.js\n and then \nRuby\n\n\nInstallation\n\n\nInstalling the Jekyll and the Bundler\n\n\nsudo gem install bundler jekyll\n\n\nTo see the installed version, run the following command\n\n\njekyll -v\n\n\nPlugins\n\n\nInstalling additional needed plug-ins\n\n\nsudo gem install jekyll-paginate jekyll-gist\n\n\nDebuging a site\n\n\ncd into the directory\n\n\njekyll doctor\n\n\nCreating a standard blank a site\n\n\njekyll new my-awesome-site\n\n\nPublishing a site\n\n\ncd into the directory\n\n\njekyll serve\n\nor\n\n\nbundle exec jekyll serve\n  \n\n\nor by indicating the host's IP, e.g. \n10.10.10.10\n\n\njekyll serve -H 10.10.10.10\n\nor\n\n\nbundle exec jekyll serve -H 10.10.10.10\n  \n\n\nInspired from \nhere", 
             "title": "\"First Steps with Jekyll on Ubuntu 16.04\""
         }, 
         {
@@ -32,7 +32,7 @@
         }, 
         {
             "location": "/First-Steps-With-Jekyll/#installation", 
-            "text": "Installing the jekyl and the bundler  sudo gem install bundler jekyll  To see the installed version, run the following command  jekyll -v", 
+            "text": "Installing the Jekyll and the Bundler  sudo gem install bundler jekyll  To see the installed version, run the following command  jekyll -v", 
             "title": "Installation"
         }, 
         {
