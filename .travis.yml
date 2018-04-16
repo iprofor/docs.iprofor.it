@@ -1,11 +1,14 @@
 sudo: false
 language: python
 python: '2.7'
-cache: pip
+# cache: pip
+cache:
+  directories:
+    - $HOME/.pip-cache/
 os: linux
 install:
 - pip install --upgrade pip
-- pip install mkdocs
+- pip install mkdocs --cache-dir $HOME/.pip-cache
 script:
 - mkdocs build --verbose --clean --strict
 notifications:
