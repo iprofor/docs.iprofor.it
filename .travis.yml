@@ -7,7 +7,7 @@ cache:
     - $HOME/.pip-cache/
 os: linux
 install:
-- pip install --upgrade pip
+- pip install --upgrade pip --cache-dir $HOME/.pip-cache
 - pip install mkdocs --cache-dir $HOME/.pip-cache
 script:
 - mkdocs build --verbose --clean --strict
