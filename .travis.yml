@@ -1,17 +1,13 @@
 sudo: false
 language: python
-cache: pip
 python: '2.7'
+cache: pip
 os: linux
 install:
 - pip install --upgrade pip
 - pip install mkdocs
 script:
 - mkdocs build --verbose --clean --strict
-
-#cache:
-#  directories:
-#- $HOME/.cache/pip
 notifications:
   email: true
 deploy:
