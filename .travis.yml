@@ -18,4 +18,4 @@ deploy:
  keep-history: true
  on:
    branch: master
- fqdn: www.docs.iprofor.it # enables Travis CI to automatically create the CNAME file under xxx.github.io repository.
+ fqdn: docs.iprofor.it # enables Travis CI to automatically create the CNAME file under xxx.github.io repository.
